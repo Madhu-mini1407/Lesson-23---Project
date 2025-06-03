@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Let's choose a vegetable!</h1>
+    <p id="result"></p>
+    <p id="am"></p>
+    <p id="as"></p>
+    <p id="at"></p>
+    <p id="an"></p>
+    <script>
+        var vegetable=["Potato","Carrot","Lettuce","Ginger","Chilli","Cauliflower"];
+        document.getElementById("result").innerHTML=vegetable[3];
+        document.getElementById("am").innerHTML=vegetable.join("/");
+        document.getElementById("as").innerHTML=vegetable.pop();
+        document.getElementById("at").innerHTML=vegetable.pop();
+        document.getElementById("an").innerHTML=vegetable.pop()
+        document.write(vegetable)
+    </script>
+</body>
+</html>
